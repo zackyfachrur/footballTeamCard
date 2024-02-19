@@ -176,5 +176,8 @@ const { sport, team, year, players } = myFavoriteFootballTeam;
 typeOfSport.textContent = sport;
 teamName.textContent = team;
 
+const setPlayerCards = (arr = players) => {
+  arr.map() += playerCards.innerHTML;
+};
 
 
