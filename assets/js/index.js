@@ -177,7 +177,7 @@ typeOfSport.textContent = sport;
 teamName.textContent = team;
 
 const setPlayerCards = (arr = players) => {
-  arr.map() += playerCards.innerHTML;
+  playerCards.innerHTML += arr.map();
 };
 
 
